@@ -13,7 +13,7 @@ function onReady() {
 function generateDiv() {
   totalClicks ++;
   let innerTimesClickedParagraph = '<p>' + totalClicks + '</p>';
-  let swapButton = '<button class="btn-swap">Swap Color</button>';
+  let swapButton = '<button class="btn-swap">Swap</button>';
   let deleteButton = '<button class="btn-delete">Delete</button>';
   let newDiv = '<div class="red">' + innerTimesClickedParagraph + swapButton + deleteButton + '</div>';
   $('body').append(newDiv);
