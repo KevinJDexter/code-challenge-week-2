@@ -1,7 +1,7 @@
 # code-challenge-week-2
 
 [X] Create 'Generate' button on DOM
-[ ] Append Div element to DOM when 'Generate' is clicked
+[X] Append Div element to DOM when 'Generate' is clicked
 [ ] Create a <p> element in the created Div 
 [ ] <p> element shows how many times button has been clicked
 [ ] 2 buttons in Div element, 'Swap' and 'Delete'
