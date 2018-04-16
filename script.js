@@ -7,6 +7,7 @@ function onReady() {
   console.log('jquery-3.3.1.min.js');
   $('#btn-generate').on('click', generateDiv);
   $('body').on('click', '.btn-swap', swapBackgroundColor);
+  $('body').on('click', '.btn-delete', deleteDiv);
 }
 
 function generateDiv() {
@@ -20,4 +21,8 @@ function generateDiv() {
 
 function swapBackgroundColor () {
   $(this).parent().toggleClass('red yellow');
+}
+
+function deleteDiv () {
+  $(this).parent().remove();
 }

@@ -7,4 +7,4 @@
 [X] 2 buttons in Div element, 'Swap' and 'Delete'
 [X] In CSS: All Div's created by 'Generate' have red background
 [X] 'Swap' Changes background color between Red and Yellow.
-[ ] 'Delete' Removes parent Div from DOM. 
+[X] 'Delete' Removes parent Div from DOM. 
