@@ -9,6 +9,7 @@ function onReady() {
 }
 
 function generateDiv() {
-  let newDiv = '<div></div>';
+  let innerTimesClickedParagraph = '<p></p>';
+  let newDiv = '<div>' + innerTimesClickedParagraph + '</div>';
   $('body').append(newDiv);
 }
