@@ -9,7 +9,8 @@ function onReady() {
 }
 
 function generateDiv() {
-  let innerTimesClickedParagraph = '<p></p>';
+  totalClicks ++;
+  let innerTimesClickedParagraph = '<p>' + totalClicks + '</p>';
   let newDiv = '<div>' + innerTimesClickedParagraph + '</div>';
   $('body').append(newDiv);
 }
